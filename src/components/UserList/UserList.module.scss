@@ -1,0 +1,22 @@
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+
+
+  &__card {
+    width: 33%;
+    text-align: center;
+
+
+    a {
+      color: #000;
+
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
